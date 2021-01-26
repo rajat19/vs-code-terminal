@@ -8,3 +8,7 @@ var sr = ScrollReveal({
 
 sr.reveal('.projects-list a');
 sr.reveal('.posts-list a');
+
+function copytheme(theme) {
+	console.log(theme);
+}
