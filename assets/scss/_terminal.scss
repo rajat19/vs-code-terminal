@@ -11,12 +11,12 @@
 
 .terminal {
     font-family: "Droid Sans Mono for Powerline", Lekton;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 1.25;
 }
 
 .terminal__screen {
-    padding: 16px;
+    padding: 10px;
     display: inline-flex;
     border: 1px solid transparent;
 }
@@ -29,4 +29,8 @@
 .terminal span {
     display: inline-flex;
     margin: 0px !important;
+}
+
+.card .card-content {
+    padding: 20px 0 20px 0;
 }
