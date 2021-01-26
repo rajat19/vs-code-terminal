@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compilation
+.sass-cache/
+_site/
+.jekyll-cache/
+
+# Logs and db's
+*.log
+*.sql
+*.sqlite

@@ -1,0 +1,32 @@
+.swatch__color {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin: 0 4px;
+    border: 2px solid transparent;
+    transition-property: color, border-color, background-color;
+    transition-duration: .3s;
+}
+
+.terminal {
+    font-family: "Droid Sans Mono for Powerline", Lekton;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+.terminal__screen {
+    padding: 16px;
+    display: inline-flex;
+    border: 1px solid transparent;
+}
+
+.terminal__screen, .terminal span {
+    transition-property: color, border-color, background-color;
+    transition-duration: .3s;
+}
+
+.terminal span {
+    display: inline-flex;
+    margin: 0px !important;
+}
